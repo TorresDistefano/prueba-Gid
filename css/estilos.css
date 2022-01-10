@@ -1,0 +1,307 @@
+* {
+    margin: 1px;
+    padding: 0%;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+/* logo */
+
+#logo {
+    width: 10%;
+    border-radius: 5%;
+    position: relative;
+    top: 33px;
+}
+
+/* icono de página */
+.icon {
+    border-radius: 50%;
+}
+
+/* Titulos mas importante */
+h1 {
+
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 3rem;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 25px;
+   text-align: center;
+    color: rgb(2, 2, 2);
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 0px 10px black
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* list item */
+
+ul {
+    display: flex;
+    position: relative;
+    left: 50%;
+}
+
+
+.nav ul li a
+
+{
+    position: relative;
+    left: 100%;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    left: 200px;
+
+}
+
+p { 
+    color: black;
+}
+
+/* anclas */
+  
+a:hover {
+    color: rgb(255, 230, 188)
+    !important;
+}
+
+
+/* Menu */
+
+.encabezado {
+    border:rgb(142, 128, 106) solid 10px;
+    background-color:rgb(142, 128, 106);
+    padding: 15px;
+    box-shadow: 1px 6px 18px -5px rgb(142, 128, 106);
+    width: 100%;    
+}
+
+
+/* pie de pagina */
+.footer {
+    background-color:rgb(142, 128, 106);
+    width: 79rem;
+}
+
+/* Descripcion inicial */
+
+.tienda {
+    text-align: center;
+    position: relative;
+    top: 2rem;
+
+}
+
+/* imagenes y videos */
+
+#Gif {
+    width: 8rem;
+    position: relative;
+    bottom: 1rem;
+    left: 65rem;
+
+}
+
+#fondoSurf {
+    width: 100%;
+    ;
+    z-index: -10;
+    position: relative;
+    bottom: 125px;
+    filter: contrast(-3)
+}
+
+/* imagenes tablas de surf, 
+las mas vendidas */
+
+.tienda {
+
+    display: inline-grid;
+    font-size: 5px;
+    left: 30rem;
+}
+
+
+#videoSurf {
+    height: 10rem;
+    width: 100%;
+    position: relative;
+    margin: 40px;
+    padding: 20px;
+}
+
+
+/* fin imagenes */
+
+#compra {
+    text-align: center;
+    color: white;
+}
+
+
+/* contacto */
+
+.contacto {
+
+    color: white;
+    position: relative;
+    bottom: 2rem;
+    left: 60rem;
+}
+
+
+/* texto */
+.bordeVerde {
+    position: relative;
+    left: 8rem;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: olive 2px dotted;
+}
+
+
+div.objetos ul {
+    position:relative;
+ display: inline-block;
+ left: 18rem;
+ 
+}
+
+div.objetos li {
+    position: relative;
+    left: 215px;
+}
+
+
+/* imagenes */
+
+.tablasurf {
+    width: 10rem;
+    justify-content: center;
+    box-shadow: 1px 1px 6px -5px;
+}
+
+.indumentaria {
+    width: 10rem;
+    box-shadow: 1px 1px 6px -5px;
+}
+
+.snorkels {
+    width: 10rem;
+    box-shadow: 1px 1px 6px -5px;
+}
+
+.remeras {
+    width: 10rem;
+    box-shadow: 1px 1px 6px -5px;
+}
+
+/* fin imagenes */
+
+div.textoCentrado ul li{   
+
+    position: relative;
+right: 35rem;
+    text-align:justify;
+    padding: 2rem ;
+    margin: 20px;  
+}
+
+div.textoCentrado {
+    padding: 4rem;
+
+}
+
+/* imagenes marcas */
+img.marcas {
+    position: relative;
+    display: inline-block;
+    width: 12rem;
+    right: 34rem;
+    
+}
+
+/* posicion de las marcas */
+
+.posicionMarcas {
+    position: relative;
+    text-align: center;
+}
+
+/* tabla de talles*/
+div.table {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    border: 2px dashed;
+    position: relative;
+    left: 24rem;
+    border-radius: 5%;
+    box-shadow: 1px 1px 6px -5px;
+    background-color: rgb(241, 231, 215);
+}
+
+/* redes */
+div.redes img{
+  position: relative;
+  border-radius: 50%;
+  width: 40px;
+  right: 55px;
+  padding: 5px;
+  
+}
+
+/* contacto encontranos */
+
+div.encontranos {
+    position: relative;
+    padding: 5rem;
+    text-align: center;
+    left: 10rem;
+}
+
+ p.talles {
+     position: relative;
+     left: 33rem;
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ ul.wsp img {
+     position: fixed;
+     border-radius: 50%;
+     width: 60px;
+bottom: 40px;
+left: 72rem;
+z-index: 100;
+
+
+ }
